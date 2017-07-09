@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "mongo-init": "babel-node ./config/init/mongo.insertMany.customers.js",
     "serve": "nodemon ./server.js --exec babel-node"
   },
   "keywords": [],
